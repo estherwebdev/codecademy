@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0:
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #444;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#intro img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.caption {
+  text-align: center;
+  line-height: 2.2rem;
+}
+
+h1 {
+  color: lightgrey;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.caption p {
+  color: #222;
+}
+
+.caption a {
+  color: grey;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.caption a:hover {
+  color: #f4f4f4;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+main {
+  margin: auto;
+  background-color: grey;
+  width: 90%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.first article {
+  background-color: #f4f4f4;
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+.second article {
+  background-color: #f4f4f4;
+  width: 35%;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+article img {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+}
+
+article p {
+  text-align: center;
+  padding: 15px;
+}
+
+.related {
+  color: #f4f4f4;
+  margin: 30px 100px;
+  line-height: 1.6rem;
+}
+
+footer {
+  height: 100px;
+  margin-top: 40px;
+  background-color: #333;
+  color: white;
+}
+
+#contact {
+  display: block;
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  
+  .second {
+    display: block;
+     }
+  
+  .second article { 
+    width: 80%;
+    margin: 20px auto;
+    
+  }
+}
+
